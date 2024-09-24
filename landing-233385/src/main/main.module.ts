@@ -17,6 +17,7 @@ import { FooterComponent } from './footer/footer.component';
   ],
   exports: [
     FooterComponent,
+    ContentComponent,
     NavbarComponent
   ]
 })
