@@ -1,0 +1,32 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, magenta, red, yellow, orange);
+    color: black;
+    border-top: 2px solid blue;
+  }
+  
+  .footer-left, .footer-right {
+    width: 30%;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .footer-center {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lucida Calligraphy', cursive;
+  }
+  
+  .footer h2 {
+    margin: 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
