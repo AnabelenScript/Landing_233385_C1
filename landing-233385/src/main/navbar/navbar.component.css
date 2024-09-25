@@ -1,10 +1,12 @@
+
 .navbar {
-    background: linear-gradient(90deg, magenta, red, yellow, orange, red, magenta);
-    height: 60px;
+    background: linear-gradient(90deg, #ff00c3, red, #ffff00, red, #ff00c3);
+    height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    padding: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: 8px;
   }
   
   .navbar-container {
@@ -12,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1200px;
+    padding: 0 50px;
   }
   
   .menu-icon {
@@ -21,26 +23,31 @@
   
   .menu-line {
     display: block;
-    width: 25px;
-    height: 3px;
+    width: 35px;
+    height: 6px;
     background-color: black;
-    margin: 4px 0;
+    margin: 6px 0;
   }
   
  
   .search-box {
     display: flex;
+    width: 20%;
     align-items: center;
-    background-color: white;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 5px;
+    background-color: white;
   }
   
   .search-box input {
     border: none;
     outline: none;
     padding: 5px;
-    font-size: 16px;
+    width: 80%;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: "Lancelot", serif;
+    background-color: transparent;
   }
   
   .search-box button {
@@ -49,24 +56,25 @@
     cursor: pointer;
   }
   
-  .search-box button img {
-    width: 20px;
-    height: 20px;
+  .search-button{
+    font-size: 25px;
+    margin-top: 6px;
+
   }
   
 
   .navbar-title {
-    font-family: 'Cursive', serif;
-    font-size: 24px;
+    font-family: "Italianno", cursive;
+    font-size: 40px;
     color: black;
-    margin: 0 20px;
   }
 
   .navbar-link a {
     font-family: 'Cursive', serif;
-    font-size: 18px;
+    font-size: 24px;
     color: black;
     text-decoration: none;
+    font-family: "Lancelot", serif;
   }
   
   .navbar-link a:hover {
