@@ -23,18 +23,8 @@
   }
   
   .footer-center {
-    font-size: 28px;
+    font-size: 40px;
     font-family:  "Italianno", cursive;
-    margin-top: 105px;
+    margin-top: 65px;
     text-align: center;
   }
-  
-  .footer h2 {
-    margin: 0;
-  }
-  
-  .footer p {
-    margin: 0;
-    line-height: 1.4;
-  }
-  

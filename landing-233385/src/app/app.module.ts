@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainModule } from '../main/main.module';
-import { NavbarComponent } from '../main/navbar/navbar.component';
+import { SecondviewModule } from '../secondview/secondview.module';
+import { ThirdviewModule } from '../thirdview/thirdview.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +14,8 @@ import { NavbarComponent } from '../main/navbar/navbar.component';
     BrowserModule,
     MainModule,
     AppRoutingModule,
+    SecondviewModule,
+    ThirdviewModule
   ],
   providers: [
     provideClientHydration()
