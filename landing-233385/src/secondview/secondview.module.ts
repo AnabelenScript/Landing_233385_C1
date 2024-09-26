@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
-
+import { SecondComponentComponent } from './second-component/second-component.component';
+import { MainModule } from "../main/main.module";
 @NgModule({
-  declarations: [],
+  declarations: [
+    SecondComponentComponent
+  ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    MainModule
+]
 })
 export class SecondviewModule { }
