@@ -1,0 +1,106 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Lancelot", serif;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  h1::before {
+    font-size: 2rem;
+    position: absolute;
+    left: -30px;
+    top: 0;
+    color: #000;
+  }
+  
+  .procedures-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .procedure-item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .procedure-item video {
+    width: auto;
+    max-width: 45%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .procedure-video {
+    max-width: 45%;
+  }
+  
+  .procedure-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .procedure-info p {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  
+  .procedure-info strong {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .procedure-info .field {
+    margin-bottom: 10px;
+  }
+  
+  .field-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #000;
+  }
+  
+  .procedure-info .field span {
+    color: #615d5d;
+    font-size: 22px;
+  }
+  
+  @media (max-width: 768px) {
+    .procedure-item {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .procedure-item img,
+    .procedure-item video {
+      width: 100%; 
+      max-width: 100%;
+    }
+  
+    .procedure-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  
+  

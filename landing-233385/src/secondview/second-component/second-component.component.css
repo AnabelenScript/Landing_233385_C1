@@ -1,0 +1,61 @@
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Lancelot", serif;
+}
+
+.intro {
+    text-align: left;
+    margin: 20px 0;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.intro p {
+    margin: 10px 0;
+    font-size: 1.5em;
+    
+}
+
+.product-list h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.product {
+    display: flex;
+    margin-bottom: 22px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+   
+}
+
+.product img {
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Lancelot", serif;
+    font-size: 20px;
+}
+
+.product-details p {
+    margin: 5px 0;
+}
+
+.product-details p strong {
+    font-weight: bold;
+}

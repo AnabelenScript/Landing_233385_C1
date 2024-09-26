@@ -1,9 +1,10 @@
-
+.landing-container{
+  background-color: #f7bf8b35;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
   }
   
   .landing-container {
@@ -13,9 +14,9 @@ body {
   .hero-section {
     display: flex;
     flex-direction: row-reverse;
-    background: linear-gradient(90deg, magenta, red, yellow, orange);
-    padding: 20px;
     color: white;
+    position: relative;
+    
   }
   
   .hero-text {
@@ -26,49 +27,74 @@ body {
   }
   
   .hero-text p {
-    font-size: 18px;
-    max-width: 400px;
-    text-align: center;
+    font-size: 53px;
+    max-width: 300px;
+    position: absolute;
+    left: 55px;
+    font-family: "Lancelot", serif;
+    margin-top: 2%;
+  }
+
+  .lancelot-regular {
+    font-family: "Lancelot", serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
+  
   .hero-image img {
-    width: 300px;
+    width: 1640px;
     height: auto;
-    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: 8px;
   }
   
   .regions-section {
     text-align: center;
-    background: linear-gradient(90deg, yellow, orange);
     padding: 20px 0;
+    position: relative;
   }
   
-  .regions-section h2 {
-    font-size: 24px;
+  .title1 {
+    font-size: 36px;
     margin-bottom: 20px;
-    color: black;
+    position: relative;
+    background: linear-gradient(90deg,  rgba(255, 0, 0, 0.227), rgba(255, 255, 0, 0.288));
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lancelot", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: 8px;
   }
   
   .regions-grid {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
   }
   
   .region-card {
+    margin-top: 30px;
     text-align: center;
   }
   
   .region-card img {
-    width: 150px;
-    height: 150px;
+    width: 270px;
+    height: 270px;
     border-radius: 10px;
     object-fit: cover;
   }
   
   .region-card p {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 50px;
+    font-family: "Lancelot", serif;
+  }
+
+  .region-card p:hover {
+    text-decoration: underline;
   }
 
   .scroll-icon {
@@ -80,16 +106,17 @@ body {
   .process-section {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px;
-    background-color: white;
     border-top: 2px solid black;
+    gap: 40px;
   }
   
   .process-text p {
-    font-size: 18px;
-    max-width: 300px;
+    font-size: 38px;
+    max-width: 400px;
     text-align: left;
+    font-family: "Lancelot", serif;
   }
   
   .process-image {
@@ -107,5 +134,25 @@ body {
     font-size: 16px;
     color: black;
     font-weight: bold;
+
   }
+
+  .video{
+    display: block;
+    margin-top: 50px;
+    width: 600px;
+   text-align: center;
+  }
+
+  .process-section a{
+    font-size: 38px;
+    font-family: "Lancelot", serif;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+  }
+  .process-section a:hover {
+    text-decoration: underline;
+  }
+  
   

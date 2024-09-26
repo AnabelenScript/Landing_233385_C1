@@ -2,31 +2,29 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: linear-gradient(90deg, magenta, red, yellow, orange);
+    padding: 30px;
+    background: linear-gradient(90deg, #ff00c3, red, yellow,  red, #ff00c3 );
     color: black;
-    border-top: 2px solid blue;
+    position: relative;
+    height: 125px;
   }
   
-  .footer-left, .footer-right {
-    width: 30%;
-    font-size: 16px;
-    text-align: center;
+  .footer-left {
+    width: 8%;
+    font-size: 18px;
+    text-align: left;
+    font-family: "Lancelot", serif;
+  }
+  .footer-right {
+    width: 10%;
+    font-size: 18px;
+    text-align: right;
+    font-family: "Lancelot", serif;
   }
   
   .footer-center {
+    font-size: 40px;
+    font-family:  "Italianno", cursive;
+    margin-top: 65px;
     text-align: center;
-    font-size: 24px;
-    font-family: 'Lucida Calligraphy', cursive;
   }
-  
-  .footer h2 {
-    margin: 0;
-  }
-  
-  .footer p {
-    margin: 0;
-    line-height: 1.5;
-  }
-  
