@@ -1,5 +1,5 @@
 .landing-container{
-  background-color: #f7bf8b35;
+  background-color: #fffbf75a;
 }
 body {
     font-family: Arial, sans-serif;
@@ -43,7 +43,7 @@ body {
   
   
   .hero-image img {
-    width: 1640px;
+    width: 1700px;
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-bottom: 8px;
@@ -78,6 +78,10 @@ body {
   .region-card {
     margin-top: 30px;
     text-align: center;
+    background-color: #ffffff;
+    width: 380px;
+    padding: 20px 2px 2px 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
   .region-card img {
@@ -109,11 +113,11 @@ body {
     justify-content: center;
     padding: 20px;
     border-top: 2px solid black;
-    gap: 40px;
+    gap: 50px;
   }
   
   .process-text p {
-    font-size: 38px;
+    font-size: 42px;
     max-width: 400px;
     text-align: left;
     font-family: "Lancelot", serif;
